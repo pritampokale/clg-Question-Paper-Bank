@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/reg.css">
+		 
+</head>
+<body>
+
+	<div class="bgimage">
+		<div class="menu">
+			
+			<div class="leftmenu">
+				<h4>QuestionPaperBank</h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+					<li onclick="window.location.href='index.html'"> Home </li>
+					<li onclick="window.location.href='aboutus.html'"> About us</li>
+					<li onclick="window.location.href='contact.html'">Feedback</li>
+					
+					<li id="fisrtlist" onclick="window.location.href='Registration.html'"> Registration</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="form_reg">
+		<center><h1 id="baner">Registration</h1></center></br>
+			<form action="reg.php" method="POST">
+			<h3>Enter First Name</h3>
+				<input id="tb1" type="text" name="fname" placeholder="Enter First Name" required=""><br>
+				<h3>Enter Last Name</h3>
+				<input id="tb1" type="text" name="lname" placeholder="Enter Last Name" required=""><br>
+				<h3>Enter Email ID</h3>
+				<input id="tb1" type="mail" name="email" placeholder="Enter Email" required=""><br>
+				<h3>Enter Class</h3>
+				<select id="tb1" name="class">
+				<option disabled selected value>Entre Class
+				</option>
+				<option value="BSC(I.T) & Animation">BSC(I.T) & Animation
+				</option>
+				<option value="BCS">BCS 
+				</option>
+				<option value="BCA">BCA
+				</option>
+				</select><br>
+				<h3>Enter semester</h3>
+				<select id="tb1" name="sem">
+				<option disabled selected value>Entre semester
+				</option>
+				<option value="sem1">Sem1
+				</option>
+				<option value="sem2">Sem2 
+				</option>
+				<option value="sem3">Sem3
+				</option>
+				<option value="sem4">Sem4
+				</option>
+				<option value="sem5">Sem5
+				</option>
+				<option value="sem6">Sem6
+				</option>
+				</select><br>
+				<h3>Enter Phone</h3>
+				<input id="tb1" type="phone" name="phone" placeholder="Enter Contact Number" required=""><br>
+				<h3>Enter Password</h3>
+				<input id="tb1" type="password" name="password" placeholder="Enter Password" required="">
+				<center><button type="Submit" name="Submit" id="button">Submit</button></center>
+			</form>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

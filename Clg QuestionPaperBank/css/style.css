@@ -1,0 +1,183 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.bgimage{
+	background-image: url('media/tt.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5 );
+}
+.leftmenu{
+	float: left;
+	padding-top : 30px;
+}
+
+.leftmenu h4{
+	padding-left: 40px;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+	letter-spacing : 3px;
+	
+	
+}
+
+.rightmenu ul{
+	margin-left: 80px;
+}
+
+.rightmenu ul li {
+	display: inline-block;
+	font-size: 18px;
+	color:white;
+	font-weight: bold;
+	line-height: 120px;
+	margin-left: 70px;
+}
+
+.text h4{
+	font-weight : bold;
+	color : red;
+	letter-spacing : 3px;
+}
+
+.text h1{
+	font-weight : bold;
+	color : white;
+	font-size: 50px;
+	letter-spacing : 5px;
+}
+
+.text h3{
+	font-weight : bold;
+	color : white;
+	font-size: 17px;
+	letter-spacing : 4px;
+}
+
+.text
+{
+text-align: center;
+padding-top : 10px;
+float:bottom;
+}
+
+#marq{
+color: yellow;
+letter-spacing: 3px;
+padding-top:20px;
+}
+
+.footer{
+position:fixed;
+left:0;
+bottom:0;
+width:100%;
+background-color:rgba(0,0,0,0.9 );
+color:white;
+}
+
+.text1
+{
+text-align: center;
+padding-top : 10px;
+}
+
+.buttontwo:hover{
+color:green;
+background-color:red;
+}
+
+
+.buttontwo{
+	background-color:#87ceeb;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	border-radius: 25px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+
+.btn{
+	background-color:#87ceeb;
+	border: radius;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 23px;
+	border-radius: 10px;
+	width: 400px;
+	height:50px;
+	font-family: 'Montserrat', sans-serif;
+	border: 3px solid black;
+}
+
+
+
+.btn:hover
+{
+color:purple;
+background-color:orange;
+}
+
+.form_lgn{
+text-align:center;
+float:center;
+margin-left: 40%;
+background:rgba(3,0,0,0.5 );
+width:280px;
+height:270px;
+border-radius:10px;
+}
+.form_lgn h3{
+color:white;
+}
+
+#baner{
+font-size:30px;
+font-weight:20px;
+color:orange;
+}
+
+
+input{
+	border:2px solid #aaa;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	margin:5px 0;
+	outline: none;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#tb1{
+width:90%;
+
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+#fisrtlist{
+	color: orange;
+}

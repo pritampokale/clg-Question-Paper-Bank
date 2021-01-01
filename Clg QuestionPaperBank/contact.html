@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="css/cnt.css">
+		 
+</head>
+<body>
+
+	<div class="bgimage">
+		<div class="menu">
+			
+			<div class="leftmenu">
+				<h4> QuestionPaperBank </h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+					<li onclick="window.location.href='index.html'"> Home </li>
+					<li onclick="window.location.href='Aboutus.html'"> About us</li>
+					<li id="fisrtlist" onclick="window.location.href='contact.html'">Feedback</li>
+					
+					<li  onclick="window.location.href='Registration.html'">  Registration 	 </li>
+				</ul>
+			</div>
+
+		</div>
+		
+		<div class="form_reg">
+			<form action="fed.php" method="POST">
+			<h3>Enter Email Id :</h3>
+				<input id="tb1" type="text" name="email" placeholder="Enter Email ID" required=""><br><br>
+				
+				<h3>Enter Query :</h3>
+				<textarea name="fed" id="tes">  </textarea>
+				<center><button type="Submit" name="Submit" class="button">Submit</button></center>
+			</form>
+		</div>
+		
+
+	</div>
+
+</body>
+</html>
